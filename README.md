@@ -10,8 +10,8 @@ This app was built upon the latest version of QBCore (as of 12/20/2022) and NPWD
 ## Install
 1. Download the latest **release**... DO NOT DOWNLOAD THE SOURCE CODE. To do this, just click on the download button on the right side of Github under `Releases`.
 2. Unzip the script and add it to your resources folder.
-3. Add `ensure npwd_qb_info` BEFORE START NPWD.
-4. In `config.json` within your npwd folder, add `"npwd_ab_info"` to the apps section.
+3. Add `ensure npwd_qb_info` BEFORE STARTING NPWD.
+4. In `config.json` within your npwd folder, add `"npwd_qb_info"` to the apps section.
 
 ## Adding more to the app
 1. Open `server/server.lua`.
