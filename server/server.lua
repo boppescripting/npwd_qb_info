@@ -10,11 +10,11 @@ QBCore.Functions.CreateCallback('npwd:infoapp:getPlayerInformation', function(so
         },
         {
             name = 'Cash',
-            description = PlayerData.money.bank and ('$' .. PlayerData.money.cash) or 0
+            description = PlayerData.money.bank and ('$' .. PlayerData.money.cash) or tostring(0)
         },
         {
             name = 'Bank',
-            description = PlayerData.money.bank and ('$' .. PlayerData.money.bank) or 0
+            description = PlayerData.money.bank and ('$' .. PlayerData.money.bank) or tostring(0)
         },
     }
     cb(info)

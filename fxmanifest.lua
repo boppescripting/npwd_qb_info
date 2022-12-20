@@ -1,8 +1,12 @@
 fx_version "cerulean"
 game "gta5"
 
-client_script 'dist/client.js'
-server_script 'dist/server.js'
+client_script 'client/client.lua'
+
+server_scripts {
+    '@oxmysql/lib/MySQL.lua',
+    'server/server.lua'
+}
 
 ui_page 'web/dist/index.html'
 
